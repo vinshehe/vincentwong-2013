@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vincent Wong - Not found</title>
+<meta name="description" content="Selected graphic design work by Vincent Wong: identity, editorial, digital interface and typography.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Holtwood+One+SC|Space+Mono&display=swap">
+<link rel="stylesheet" href="./assets/screen.css">
+</head>
+<body class="">
+<div id="container">
+  <h1 class="col three"><a href="./">Vincent Wong</a></h1>
+  <hr>
+  <ul id="navigation" class="col two">
+    <li><a href="./info/">Info</a></li>
+    <li><a href="./projects/">Projects</a></li>
+  </ul>
+  <div id="content" class="col nine">
+    <div class="description col seven"><h2 class="col seven">404</h2><p>Nothing here. <a href="/">Back to the work.</a></p></div>
+  </div>
+  <hr>
+  <em class="col six">&copy; Vincent Wong, 2026</em>
+</div>
+<a href="#" class="back-to-top" aria-label="Back to top">&uarr;</a>
+<script>
+(function () {
+  var b = document.querySelector('.back-to-top');
+  function t() { b.classList.toggle('show', window.scrollY > 100); }
+  window.addEventListener('scroll', t, {passive: true}); t();
+  b.addEventListener('click', function (ev) { ev.preventDefault(); window.scrollTo({top: 0, behavior: 'smooth'}); });
+})();
+</script>
+</body>
+</html>
